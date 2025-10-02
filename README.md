@@ -116,13 +116,13 @@ For programmatic use, the scanner can output results in JSON format with all sca
 ## Example Output
 
 ```
-🚀 Starting comprehensive SSL/TLS security scan for https://example.com
+==> Starting comprehensive SSL/TLS security scan for https://example.com
 ================================================================
-📋 Analyzing certificate...
-🔍 Running SSLyze security scan...
+==> Analyzing certificate...
+==> Running SSLyze security scan...
 
 ================================================================
-📊 SCAN SUMMARY
+ SCAN SUMMARY
 ================================================================
 Target: example.com:443
 Certificate Valid: Yes
@@ -130,14 +130,14 @@ Total Issues Found: 2
 Critical Issues: 0
 Warnings: 2
 
-⚠️ ISSUES DETECTED:
-  ⚠️ Server supports compression (CRIME vulnerability risk)
-  ⚠️ Consider using SHA-256 or stronger signature algorithm
+ ISSUES DETECTED:
+   Server supports compression (CRIME vulnerability risk)
+   Consider using SHA-256 or stronger signature algorithm
 
-📄 Generating PDF report...
-✅ PDF report saved: ssl_scan_report_example.com_20241201_143022.pdf
+ Generating PDF report...
+==> PDF report saved: ssl_scan_report_example.com_20241201_143022.pdf
 
-✅ Scan completed successfully!
+==> Scan completed successfully!
 ```
 
 ## Security Recommendations
