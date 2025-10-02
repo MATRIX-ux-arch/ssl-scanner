@@ -1,0 +1,19 @@
+# Sample websites for SSL/TLS scanning
+# One URL per line, lines starting with # are comments
+
+# Popular websites
+https://google.com
+https://github.com
+https://stackoverflow.com
+https://mozilla.org
+https://eff.org
+
+# Educational and testing sites
+https://badssl.com
+https://www.howsmyssl.com
+https://www.ssllabs.com
+
+# News and media
+https://bbc.com
+https://cnn.com
+https://reuters.com
